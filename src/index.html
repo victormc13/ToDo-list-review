@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
     />
-    <link rel="shortcut icon" href="list-icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="list-icon.svg" type="image/x-icon" />
     <title>To-Do List</title>
   </head>
   <body>
@@ -27,20 +27,10 @@
       <!-- Input -->
       <form class="task-form flex-row">
         <input type="text" placeholder="Add to your list..." />
-        <i class="las la-level-down-alt btn"></i>
+        <button class="add-btn"><i class="las la-level-down-alt"></i></button>
       </form>
       <!-- Task list -->
-      <ul class="task-container">
-        <!-- Will be created dynamically with js
-				<li class="task-item flex-row task-completed">
-          <input type="checkbox" />
-          <p>
-            Go to the mall and buy some food to eat and breakfast sjflkajdfa
-            klasdjfñalksdf aklsjdfañlskdj
-          </p>
-          <i class="las la-ellipsis-v btn"></i>
-        </li> -->
-      </ul>
+      <ul class="task-container"></ul>
       <button type="button" class="completed-tasks-btn">
         Clear all completed
       </button>

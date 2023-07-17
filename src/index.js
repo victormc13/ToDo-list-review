@@ -15,18 +15,6 @@ form.addEventListener('submit', (event) => {
     addTask(description);
     input.value = '';
   }
-  // taskMenu();
-});
-
-const addTaskBtn = document.querySelector('.la-level-down-alt');
-addTaskBtn.addEventListener('click', () => {
-  const input = form.querySelector('input[type=text]');
-  const description = input.value.trim();
-  if (description) {
-    addTask(description);
-    input.value = '';
-  }
-  taskMenu();
 });
 
 const refreshTasks = document.querySelector('.la-sync');

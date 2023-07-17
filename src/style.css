@@ -106,3 +106,9 @@ button:focus {
 .hidden {
   display: none;
 }
+
+.add-btn {
+  background-color: transparent;
+  text-align: center;
+  width: 5%;
+}
